@@ -8,6 +8,17 @@
 - 创建日期：2024-10-20
 - 版本：v4.0
 
+## 目录组织结构
+.../
+   config.ini 配置文件
+   parallel_test.py: 代码
+   system_prompt.txt: system prompt（默认demo中未用到）
+   test_data.xlsx: 测试集数据（含每轮的sp和up）
+   result/
+      data.xlsx: 结果数据
+      log.log: 日志数据
+      wrong.txt: 运行错误的index数据
+
 ## 更新记录
 **v4.0**
 - 使用python coroutine重构代码，提升代码运行效率
